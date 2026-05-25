@@ -1,0 +1,15 @@
+C:\Users\famil\Dekel_Riess_03\Dekel_Riess_03\Dekel_Riess_03\bin\Debug\net10.0\Dekel_Riess_03.exe
+C:\Users\famil\Dekel_Riess_03\Dekel_Riess_03\Dekel_Riess_03\bin\Debug\net10.0\Dekel_Riess_03.deps.json
+C:\Users\famil\Dekel_Riess_03\Dekel_Riess_03\Dekel_Riess_03\bin\Debug\net10.0\Dekel_Riess_03.runtimeconfig.json
+C:\Users\famil\Dekel_Riess_03\Dekel_Riess_03\Dekel_Riess_03\bin\Debug\net10.0\Dekel_Riess_03.dll
+C:\Users\famil\Dekel_Riess_03\Dekel_Riess_03\Dekel_Riess_03\bin\Debug\net10.0\Dekel_Riess_03.pdb
+C:\Users\famil\Dekel_Riess_03\Dekel_Riess_03\Dekel_Riess_03\obj\Debug\net10.0\Dekel_Riess_03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\famil\Dekel_Riess_03\Dekel_Riess_03\Dekel_Riess_03\obj\Debug\net10.0\Dekel_Riess_03.AssemblyInfoInputs.cache
+C:\Users\famil\Dekel_Riess_03\Dekel_Riess_03\Dekel_Riess_03\obj\Debug\net10.0\Dekel_Riess_03.AssemblyInfo.cs
+C:\Users\famil\Dekel_Riess_03\Dekel_Riess_03\Dekel_Riess_03\obj\Debug\net10.0\Dekel_Riess_03.csproj.CoreCompileInputs.cache
+C:\Users\famil\Dekel_Riess_03\Dekel_Riess_03\Dekel_Riess_03\obj\Debug\net10.0\Dekel_Riess_03.sourcelink.json
+C:\Users\famil\Dekel_Riess_03\Dekel_Riess_03\Dekel_Riess_03\obj\Debug\net10.0\Dekel_Riess_03.dll
+C:\Users\famil\Dekel_Riess_03\Dekel_Riess_03\Dekel_Riess_03\obj\Debug\net10.0\refint\Dekel_Riess_03.dll
+C:\Users\famil\Dekel_Riess_03\Dekel_Riess_03\Dekel_Riess_03\obj\Debug\net10.0\Dekel_Riess_03.pdb
+C:\Users\famil\Dekel_Riess_03\Dekel_Riess_03\Dekel_Riess_03\obj\Debug\net10.0\Dekel_Riess_03.genruntimeconfig.cache
+C:\Users\famil\Dekel_Riess_03\Dekel_Riess_03\Dekel_Riess_03\obj\Debug\net10.0\ref\Dekel_Riess_03.dll

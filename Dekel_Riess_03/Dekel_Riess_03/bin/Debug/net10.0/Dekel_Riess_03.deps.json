@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Dekel_Riess_03/1.0.0": {
+        "runtime": {
+          "Dekel_Riess_03.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dekel_Riess_03/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
