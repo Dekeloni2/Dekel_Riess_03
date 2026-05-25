@@ -23,7 +23,7 @@ public class Enemy
     // Plays a victory animation when player dies
     public void PlayVictoryAnimation()
     {
-        Console.ForegroundColor = ConsoleColor.Green;
+        Console.ForegroundColor = ConsoleColor.Magenta;
         Console.WriteLine($"{Name} is celebrating by doing a victory dance!");
     }
 }
