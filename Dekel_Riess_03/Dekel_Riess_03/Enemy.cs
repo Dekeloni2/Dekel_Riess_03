@@ -1,9 +1,17 @@
 namespace Dekel_Riess_03;
 
-public class Enemy(string name)
+public class Enemy
 {
-    private string Name { get; set; } = name;
+    // Enemy's name for identification
+    public string Name { get; set; }
 
+    // Constructor to create an enemy with a name
+    public Enemy(string name)
+    {
+        Name = name;
+    }
+
+    // Attacks the target player with specified damage
     public void Attack(Player target, float damage)
     {
         Console.ForegroundColor = ConsoleColor.Red;
@@ -12,9 +20,10 @@ public class Enemy(string name)
         Console.ResetColor();
     }
     
+    // Plays a victory animation when player dies
     public void PlayVictoryAnimation()
     {
-        Console.ForegroundColor = ConsoleColor.Magenta;
+        Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine($"{Name} is celebrating by doing a victory dance!");
     }
 }
