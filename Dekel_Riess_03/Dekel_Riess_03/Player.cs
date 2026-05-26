@@ -2,39 +2,42 @@ namespace Dekel_Riess_03;
 
 public class Player
 {
-    private float health;
-    private bool isDead;
+    public delegate void HealthChangedDelegate(float newHealth, string reason);
+    public delegate void PlayerDiedDelegate();
+
+    private float _health;
+    private bool _isDead;
+    
 
     // Property to manage health, clamped between 0 and 100
     public float Health
     {
-        get => health;
-        set
-        {
-            health = Math.Clamp(value, 0, 100);
-        }
+        get => _health;
+        set => _health = Math.Clamp(value, 0, 100);
     }
     
     // Constructor to initialize player with starting health
     public Player(float health = 100)
     {
-        this.health = health;
+        Health = health;
+        _isDead = (health <= 0);
     }
 
+
     // Event triggered when player's health changes
-    public event Action<float, string>? OnHealthChanged;
-    
-    // Event triggered when player dies
-    public event Action? OnPlayerDied;
+    public event HealthChangedDelegate? OnHealthChanged;
+    // Event triggered on player's death
+    public event PlayerDiedDelegate? OnPlayerDied;
+
     
     // Heals the player by the specified amount, checks to see if the player is dead
     public void Heal(float amount)
     {
         Console.ForegroundColor = ConsoleColor.Green;
-        if (isDead)
+        if (_isDead)
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Player is dead and cannot heal");
+            Console.WriteLine("Nexus is destroyed and cannot heal");
             Console.ResetColor();
             return;
         }
@@ -50,9 +53,9 @@ public class Player
         Console.ForegroundColor = ConsoleColor.Red;
         
         // Check if player is already dead
-        if (isDead == true)
+        if (_isDead == true)
         {
-            Console.WriteLine("Player is already dead");
+            Console.WriteLine("Nexus is already destroyed");
             Console.ResetColor();
             return;
         }
@@ -61,9 +64,9 @@ public class Player
         OnHealthChanged?.Invoke(Health, $"Took {amount} damage");
 
         // Check if player has died from this damage
-        if (Health <= 0 && !isDead)
+        if (Health <= 0 && !_isDead)
         {
-            isDead = true;
+            _isDead = true;
             OnPlayerDied?.Invoke();
         }
         Console.ResetColor();

@@ -8,7 +8,7 @@ public class Program
         Player player = new Player(100);
         UI ui = new UI();
         
-        // Create 3 enemies
+        // Create 3 enemies (League of Legends champions)
         Enemy goblin = new Enemy("Goblin");
         Enemy orc = new Enemy("Orc");
         Enemy dragon = new Enemy("Dragon");
